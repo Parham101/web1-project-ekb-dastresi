@@ -1,0 +1,162 @@
+.moreSell {
+  position: relative;
+  width: 1240px;
+  max-width: 100%;
+  background-color: #e2e2e2;
+  padding: 30px 46px 34px;
+  margin: 30px auto;
+  font-family: shabnam;
+  border-radius: 20px;
+
+  .moreSell__title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    margin-bottom: 20px;
+
+    h2 {
+      font-size: 24px;
+      font-weight: bold;
+      color: #555;
+    }
+    a {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 13px;
+      color: #222;
+      text-decoration: none;
+    }
+   .moreSell__arrow {
+      width: 20px;
+      height: 20px;
+      border: 1.5px solid #222;
+      border-radius: 6px;
+      text-align: center;
+      .img-arrow-more{
+        width: 20px;
+        height: 20px;
+        transform: translateY(-2px);
+        
+      }
+    }
+  }
+
+ .swiper-button-next,
+  .swiper-button-prev {
+    top: 314px;
+    width: 30px;
+    height: 30px;
+    margin-top: -15px;
+    border-radius: 50%;
+    background-color: #fff;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(253, 253, 253);
+    
+
+    svg{
+        width: 10px;
+        height: 15px;
+        color: #757575;
+    }
+ 
+  }
+ .swiper-button-prev {
+  right: 31px !important;                    
+  left: auto !important;
+}
+.swiper-button-next {
+  left: 31px !important;                     
+  right: auto !important;
+}
+}
+
+
+.moreSell__swiper {
+  width: 100%;
+  padding: 8px 0;
+  overflow: hidden;
+}
+
+.moreSell__slide {
+  position: relative;
+  height: 412px;
+  overflow: hidden;
+  background-color: #fff;
+  border-radius: 14px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
+  padding: 14px 16px;
+  display: flex;
+  flex-flow: column nowrap;
+  text-align: center;
+  transition: box-shadow 0.25s;
+  &:hover {
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.18);
+    .slideName__moreSell{
+    color: #1a4fc4;
+    }
+  }
+
+ .slideDots {
+  position: absolute;
+  top: 14px;
+  left: 14px;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;     
+  gap: 6px;
+
+  i {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: var(--c, #000 #fff #888 #1a4fc4 #FFC0CB);
+    border: 1px solid rgba(0, 0, 0, 0.18);   
+  }
+}
+
+  .img-be__moreSell {
+    width: calc(100% + 32px);
+    height: 258px;
+    margin: -14px -16px 0;
+    object-fit: contain;
+  }
+  .slideCategory__moreSell {
+    font-size: 12px;
+    color: #888;
+    margin-top: 14px;
+  }
+  .slideName__moreSell {
+    font-size: 14px;
+    font-weight: normal;
+    color: #222;
+    margin-top: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .slidePrice__moreSell {
+    margin-top: auto;  
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: flex-end;  
+    gap: 4px;
+    font-family: shabnam-bold;
+    .slideOld__moreSell {
+      font-size: 12px;
+      color: #777;
+    }
+    p {
+      display: flex;
+      flex-direction: row-reverse;
+      align-items: baseline;
+      gap: 6px;
+      small { font-size: 12px; color: #666; }
+      b { font-size: 18px; color: #1a4fc4; }
+    }
+  }
+}

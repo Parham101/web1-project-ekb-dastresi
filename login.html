@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ورود به سایت</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+  <main class="loginPage">
+  <div class="loginCard">
+
+    <div class="loginCard__top">
+      <a href="./index.html" class="loginCard__close" aria-label="بستن"></a>
+      <img class="loginCard__logo" src="./images/header/logo.png" alt="دسترسی">
+    </div>
+
+    <div class="loginCard__body">
+      <h1 class="loginCard__title">ورود و ثبت‌نام در سایت</h1>
+      <p class="loginCard__text">برای ورود و یا ثبت‌نام در سایت، لطفا شماره موبایل خود را وارد نمایید.</p>
+
+      <form class="loginForm" action="#" method="post">
+        <div class="field">
+          <input class="loginForm__input" type="tel" id="mobile" name="mobile" placeholder=" "
+                 inputmode="numeric" maxlength="11" pattern="(09|۰۹)[0-9۰-۹]{9}" required>
+          <label for="mobile">شماره موبایل</label>
+        </div>
+        <button class="loginForm__btn" type="submit">ورود به سایت</button>
+      </form>
+
+      <p class="loginCard__terms">
+        ورود شما به معنای پذیرش <a href="#">شرایط</a> و <a href="#">قوانین</a> سایت است.
+      </p>
+    </div>
+
+  </div>
+</main>
+  <footer>
+    <div class="footer--login">
+      <div class="footer--center">
+        <a href="./index.html">صفحه اصلی</a>
+        <a href="#">درباره ما</a>
+        <a href="#">محصولات</a>
+        <a href="#">سوالات متداول</a>
+        <a href="#">معرفی محصولات</a>
+        <a href="#">تماس با ما</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

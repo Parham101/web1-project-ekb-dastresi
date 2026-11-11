@@ -1,0 +1,95 @@
+.club {
+  width: 1250px;
+  max-width: 100%;
+  margin: 10px auto 40px;
+  font-family: shabnam;
+}
+
+.club__card,
+.level {
+  background-color: #fff;
+  border: 1px solid #e5e5e5;
+  border-radius: 10px;
+  margin-bottom: 16px;
+}
+
+.club__card {
+  padding: 16px 24px 20px;
+}
+.club__title {
+  margin: 0 0 20px;
+  font-size: 25px;
+  font-weight: bold;
+  color: #757575;
+}
+.club__banner {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 14px;
+}
+.club__text {
+  margin: 0 0 14px;
+  font-size: 13px;
+  line-height: 2.2;
+  color: #333;
+}
+
+.level {
+  display: flex; 
+  align-items: flex-start;
+  gap: 16px;
+  padding: 20px 24px;
+}
+.level__img {
+  width: 90px;
+  height: auto;
+  flex-shrink: 0;
+}
+.level__body {
+  flex: 1;
+  min-width: 0;
+}
+.level__name {
+  margin: 0 0 6px;
+  font-size: 17px;
+  font-weight: bold;
+}
+.level__label {
+  margin: 0 0 4px;
+  font-size: 12px;
+  color: #888;
+}
+.level__line {
+  margin: 0;
+  font-size: 13px;
+  line-height: 2.2;
+  color: #444;
+}
+
+.level--bronze .level__name { color: #b5651d; }
+.level--silver .level__name { color: #8a8f98; }
+.level--gold   .level__name { color: #d4a21f; }
+
+.club__btnBox {
+  text-align: center;
+  margin-top: 40px;
+}
+.club__btn {
+  display: inline-block;
+  width: 380px;
+  max-width: 100%;
+  height: 46px;
+  line-height: 46px;
+  background-color: #0b2b6e;
+  color: #fff;
+  font-size: 13px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 4px;
+}
+.club__btn:hover {
+  background-color: #0a5abd;
+}

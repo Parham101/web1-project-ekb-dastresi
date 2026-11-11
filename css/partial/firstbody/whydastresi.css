@@ -1,0 +1,55 @@
+.titlewhy {
+  text-align: center;
+  font-family: shabnam-bold;
+  margin: 40px 0 30px;
+
+  h3 {
+    font-size: 22px;
+    color: #222;
+  }
+}
+
+.whydastresi {
+  width: 1240px;
+  max-width: 100%;
+  margin: 0 auto 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  font-family: shabnam;
+  text-align: center;
+
+  .callforbuy,
+  .good-price,
+  .fast-delivery,
+  .loading-item {
+    width: 25%;
+    padding: 0 24px;
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+
+    img {
+      width: 60px;
+      height: 60px;
+      object-fit: contain;
+      margin-bottom: 14px;
+    }
+    .span1,
+    .span2,
+    .span3,
+    .span4{
+      font-family: shabnam-bold;
+      font-size: 15px;
+      font-weight: bold;
+      color: #757575;
+      margin-bottom: 12px;
+    }
+    p {
+      font-size: 13px;
+      line-height: 2.2;
+      color: #222;
+    }
+  }
+}
